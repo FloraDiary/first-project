@@ -1,3 +1,6 @@
 main{
-    text-align: right;
+    text-align: center;
+}
+body{
+    background: lightgreen;
 }
