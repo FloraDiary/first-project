@@ -2,5 +2,32 @@ p{
     text-align: left;
 }
 body{
+    margin: 0;
     background: lightgreen;
+}
+img{
+    max-width: 20%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 10%;
+}
+nav{
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    outline: 1px solid black;
 }
